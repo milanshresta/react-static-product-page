@@ -1,0 +1,26 @@
+.Nav-bar {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    gap: 23rem;
+}
+
+#logo {
+    width: 6rem;
+}
+
+.nav-content ul li {
+    list-style: none;
+    display: inline;
+    padding: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 650;
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
