@@ -14,8 +14,8 @@
 .nav-content ul li {
     list-style: none;
     display: inline;
-    padding: 2rem;
-    font-family: 'Montserrat';
+    padding-left: 3.9rem;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 650;
     font-size: 0.9rem;
 }
@@ -23,4 +23,19 @@
 a {
     text-decoration: none;
     color: #000;
+}
+
+.account-icon{
+    position: relative;
+    top: 0.3rem;
+}
+
+.shopping-icon{
+    position: relative;
+    top: 0.3rem;
+}
+
+.nav-line{
+    width: 73rem;
+    border: 1px solid rgb(236, 236, 236);
 }
