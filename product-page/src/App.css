@@ -3,3 +3,7 @@
 *::before {
   box-sizing: border-box;
 }
+
+.Landingpage {
+  font-family: 'Helvetica', sans-serif;
+}

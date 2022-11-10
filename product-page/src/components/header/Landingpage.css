@@ -1,0 +1,52 @@
+.landing-page {
+    max-width: 12rem;
+    margin: 6rem auto;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sub-headline-div {
+    margin-top: 3rem;
+}
+
+#product-image {
+    width: auto;
+    height: 30rem;
+}
+
+.landingpage-buttons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin: auto;
+    width: max-content;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+.subline1 {
+    font-size: 1.5rem;
+}
+
+#shop-button, #more-button {
+    width: 9rem;
+    height: 4rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: .3rem;
+}
+
+#more-button {
+    background-color: #fff;
+    color: #000;
+}
