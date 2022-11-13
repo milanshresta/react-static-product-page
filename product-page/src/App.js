@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/header/Nav';
 import Landingpage from './components/header/Landingpage';
+import Main from './components/body/Main';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
         <Landingpage />
       </div>
       
+      <div className='Main'>
+        <Main />
+      </div>
+
     </div>
 
   );

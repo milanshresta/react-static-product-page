@@ -36,8 +36,12 @@ h2 {
     font-size: 1.5rem;
 }
 
+.subline-text {
+    margin: 0;
+    padding-bottom: 1rem;
+}
 #shop-button, #more-button {
-    width: 9rem;
+    width: 13rem;
     height: 4rem;
     font-weight: 700;
     font-size: 1rem;
@@ -46,7 +50,16 @@ h2 {
     border-radius: .3rem;
 }
 
+.shopping-icon2{
+    position: relative;
+    top: 3px;
+    right: 8px;
+}
 #more-button {
     background-color: #fff;
     color: #000;
+}
+
+#shop-button, #more-button {
+    cursor: pointer;
 }

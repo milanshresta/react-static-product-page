@@ -1,5 +1,6 @@
 import './Landingpage.css';
 import productimage from '../../Assets/product-image.png';
+import { BiShoppingBag } from 'react-icons/bi';
 
 export default function Landingpage() {
     return (
@@ -17,8 +18,11 @@ export default function Landingpage() {
                         </div>
                         <div className='1subheadline'>
                             <span className='subline1'>
-                                Creative Solutions For All Your Sculpture Need. You Can Explore Many
-                                Collections Here.
+                                <p className='subline-text'>
+                                    Creative Solutions For All Your Sculpture Need. You Can Explore Many
+                                    Collections Here.
+                                </p>
+
                             </span>
                         </div>
                         <Buttons />
@@ -30,7 +34,7 @@ export default function Landingpage() {
                         <div className='product-image'>
                             <img
                                 src={productimage}
-                                alt='landing page picture'
+                                alt='bag'
                                 id='product-image'
                             />
                         </div>
@@ -46,8 +50,12 @@ function Buttons() {
         <div className='landingpage-buttons'>
             <div className='shop-now-button'>
                 <a href='#'>
-                    <button id='shop-button'>Shop Now</button>
-                </a>
+                    <button id='shop-button'>
+                        <BiShoppingBag
+                            size={"1.4rem"}
+                            className="shopping-icon2"
+                        />
+                        Shop Now</button></a>
             </div>
             <div className='for-more-button'>
                 <a href='#'>

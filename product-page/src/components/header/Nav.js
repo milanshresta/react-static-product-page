@@ -31,7 +31,7 @@ export default function Navbar() {
 
                         <li>
                             <a href='#'> <MdPersonOutline
-                                size={"1.4rem"}
+                                size={"1.5rem"}
                                 className="account-icon"
                             />Account</a>
                         </li>

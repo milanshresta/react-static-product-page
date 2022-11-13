@@ -1,0 +1,15 @@
+.our-partners {
+    background-color: rgb(235, 235, 235);
+    width: auto;
+    height: 15rem;
+    position: relative;
+    bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.7rem;
+}
+
+img {
+    width: 10rem;
+}
