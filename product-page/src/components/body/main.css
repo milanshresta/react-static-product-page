@@ -13,3 +13,52 @@
 img {
     width: 10rem;
 }
+
+.featured-product {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.product-image {
+    background-image: url(../../Assets/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-box {
+    height: 37rem;
+    width: 36rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.product-box1, .product-box2 {
+    height: 17rem;
+    width: 36rem;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.box1 {
+    background-color: aquamarine;
+    width: 18rem;
+    height: 16.9rem;
+}
+
+.box2 {
+    background-color: aquamarine;
+    width: 18rem;
+    height: 18.8rem;
+}
+
+.box-image {
+    background-image: url(../../Assets/boximage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
