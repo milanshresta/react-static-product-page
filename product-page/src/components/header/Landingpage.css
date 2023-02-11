@@ -1,65 +1,68 @@
 .landing-page {
-    max-width: 12rem;
-    margin: 6rem auto;
+  max-width: 12rem;
+  margin: 6rem auto;
 }
 
 .main-div {
-    display: flex;
-    justify-content: center;
-    gap: 7rem;
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
 }
 
 .sub-headline-div {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 #product-image {
-    width: auto;
-    height: 30rem;
+  position: relative;
+  width: auto;
+  height: 31rem;
 }
 
 .landingpage-buttons {
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 h2 {
-    font-size: 3.5rem;
-    margin: auto;
-    width: max-content;
-    font-weight: 800;
-    padding-bottom: 1rem;
+  font-size: 3.5rem;
+  margin: auto;
+  width: max-content;
+  font-weight: 800;
+  padding-bottom: 1rem;
 }
 
 .subline1 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .subline-text {
-    margin: 0;
-    padding-bottom: 1rem;
+  margin: 0;
+  padding-bottom: 1rem;
 }
-#shop-button, #more-button {
-    width: 13rem;
-    height: 4rem;
-    font-weight: 700;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #000;
-    border-radius: .3rem;
+#shop-button,
+#more-button {
+  width: 13rem;
+  height: 4rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 0.3rem;
 }
 
-.shopping-icon2{
-    position: relative;
-    top: 3px;
-    right: 8px;
+.shopping-icon2 {
+  position: relative;
+  top: 3px;
+  right: 8px;
 }
 #more-button {
-    background-color: #fff;
-    color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
-#shop-button, #more-button {
-    cursor: pointer;
+#shop-button,
+#more-button {
+  cursor: pointer;
 }
