@@ -1,44 +1,44 @@
 .Nav-bar {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
-    gap: 23rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  gap: 23rem;
 }
 
 #logo {
-    width: 6rem;
+  width: 6rem;
 }
 
 .nav-content ul li {
-    list-style: none;
-    display: inline;
-    padding-left: 3.9rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 650;
-    font-size: 0.9rem;
+  list-style: none;
+  display: inline;
+  padding-left: 3.9rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 650;
+  font-size: 0.9rem;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
-.account-icon{
-    position: relative;
-    top: 0.3rem;
-    right: 8px;
+.account-icon {
+  position: relative;
+  top: 0.3rem;
+  right: 8px;
 }
 
-.shopping-icon{
-    position: relative;
-    top: 0.3rem;
-    right: 8px;
+.shopping-icon {
+  position: relative;
+  top: 0.3rem;
+  right: 8px;
 }
 
-.nav-line{
-    margin: auto;
-    width: 75rem;
-    border: 1px solid rgb(236, 236, 236);
+.nav-line {
+  margin: auto;
+  width: 75rem;
+  border: 1px solid rgb(236, 236, 236);
 }
