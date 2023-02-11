@@ -1,5 +1,5 @@
 import "./Landingpage.css";
-import productimage from "../../Assets/product-image.png";
+import productimage from "../../Assets/product-image.jpg";
 import { BiShoppingBag } from "react-icons/bi";
 
 export default function Landingpage() {
