@@ -33,18 +33,20 @@ h2 {
   font-size: 3.5rem;
   margin: auto;
   width: max-content;
-  font-weight: 800;
+  font-weight: 100;
   padding-bottom: 1rem;
 }
 
 .subline1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .subline-text {
+  font-family: inter;
   margin: 0;
   padding-bottom: 1rem;
 }
+
 #shop-button,
 #more-button {
   width: 13rem;
@@ -53,7 +55,7 @@ h2 {
   font-size: 1rem;
   color: #fff;
   background-color: #000;
-  border-radius: 0.3rem;
+  border-radius: 10rem;
 }
 
 .shopping-icon2 {
@@ -61,6 +63,7 @@ h2 {
   top: 3px;
   right: 8px;
 }
+
 #more-button {
   background-color: #fff;
   color: #000;

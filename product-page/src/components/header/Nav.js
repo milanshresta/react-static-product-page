@@ -18,34 +18,33 @@ export default function Navbar() {
                 <div className='nav-content'>
                     <ul>
                         <li>
-                            <a href='#'>Collections</a>
+                            <a href='#'>Showcase</a>
                         </li>
 
                         <li>
-                            <a href='#'>About</a>
+                            <a href='#'>Who we are</a>
                         </li>
 
                         <li>
-                            <a href='#'>Contact</a>
+                            <a href='#'>Support</a>
                         </li>
-
-                        <li>
-                            <a href='#'> <MdPersonOutline
-                                size={"1.5rem"}
-                                className="account-icon"
-                            />Account</a>
-                        </li>
-
                         <li>
                             <a href='#'> <BiShoppingBag
                                 size={"1.4rem"}
                                 className="shopping-icon"
-                            />Shopping</a>
+                            />Cart</a>
                         </li>
+                        <li>
+                            <a href='#'> <MdPersonOutline
+                                size={"1.5rem"}
+                                className="account-icon"
+                            /></a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
-            <span><hr className='nav-line'/></span>
+            <span><hr className='nav-line' /></span>
         </>
     )
 }
