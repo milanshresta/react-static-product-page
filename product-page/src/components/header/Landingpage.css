@@ -25,7 +25,6 @@
 
 .landingpage-buttons {
   display: flex;
-  gap: 2rem;
   margin-top: 2rem;
 }
 
@@ -43,25 +42,22 @@ h2 {
 
 .subline-text {
   font-family: inter;
-  margin: 0;
-  padding-bottom: 1rem;
 }
 
 #shop-button,
 #more-button {
   width: 13rem;
-  height: 4rem;
+  height: 3.5rem;
   font-weight: 700;
   font-size: 1rem;
   color: #fff;
   background-color: #000;
   border-radius: 10rem;
+  border: none;
 }
 
 .shopping-icon2 {
   position: relative;
-  top: 3px;
-  right: 8px;
 }
 
 #more-button {
