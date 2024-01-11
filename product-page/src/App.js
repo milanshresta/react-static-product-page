@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/header/Nav';
 import Landingpage from './components/header/Landingpage';
-import Main from './components/body/Main';
+import Main from './components/body/main';
 
 function App() {
   return (

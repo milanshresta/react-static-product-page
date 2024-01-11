@@ -1,11 +1,11 @@
-import './Main.css'
+import './main.css'
 import Partner1 from '../../Assets/partner1.png';
 import Partner2 from '../../Assets/partner2.png';
 import Partner3 from '../../Assets/partner3.png';
 import Partner4 from '../../Assets/partner4.png';
 import Partner5 from '../../Assets/partner5.png';
 
-export default function Main() {
+export default function main() {
     return (
         <>
             <div className="our-partners">
