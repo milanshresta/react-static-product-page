@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 .Landingpage {
   font-family: "Helvetica", sans-serif;
 }
