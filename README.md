@@ -1,4 +1,4 @@
-To run this project
+Run this project and Contribute 
 
 1. Navigate to the Project Directory:
    Change your current working directory to the project folder:
