@@ -1,0 +1,67 @@
+.weather-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.weather-module {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgb(243, 243, 243);
+    padding: 24px 24px;
+    border-radius: 12px;
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: rgb(100, 100, 100);
+}
+.weather-form input[type="text"] {
+    font-size: 14px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 44px;
+    padding: 0 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.weather-form input[type="text"]:focus {
+    border: 1px solid rgb(100, 100, 100);
+    outline: none;
+}
+
+.weather-result p {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+}
+
+.copy-button {
+    font-size: 14px;
+    padding: 12px 22px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 24px;
+}
+
+.copy-button:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+.copy-button:active {
+    background-color: rgb(26, 26, 26);
+}
